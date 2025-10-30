@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahma's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="file_000000009b28620c917be7037d975671.png" alt="Rahma Logo" class="logo-img">
+    </div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="home">
+  <div class="home-content">
+    <h1>Welcome to Rahma's Portfolio Site</h1>
+    <p>
+      I'm Rahma, a 3rd-year Computer Science student at the University of Gondar,
+      and future website developer and programmer!
+    </p>
+    <a href="#about" class="btn">More About Me</a>
+  </div>
+
+  <div class="home-image">
+    <img src="rahma.jpg" alt="profile-img">
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hello! My name is Rahma. I'm a 3rd-year Computer Science student at the
+        University of Gondar. I’ve studied interesting courses like C++ Programming,
+        Java, Database Systems, and Algorithms. I’m passionate about learning computer
+        science and building real-world projects.
+        <br><br>
+        <strong>Skills:</strong> Teamwork, Communication, Programming (C++, Java, DSA)
+        <br>
+        <strong>Projects:</strong> Voting System, Restaurant Management System
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="rahma.jpg" alt="Rahma About Photo">
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <h2>My Projects</h2>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="Restaurant Management System.png.jpg" alt="Restaurant Management System" />
+      <h3>Restaurant Management System</h3>
+      <p>
+        Designed to help restaurants manage daily operations like taking orders,
+        managing menus, and generating bills. It improves service speed and
+        reduces errors in order processing.<br />
+        <strong>Built with:</strong> Oracle
+      </p>
+      <a href="https://github.com/umumegfira485-cloud/Restaurant-Management-System
+"target="_blank"class="btn"> See Code</a>
+    </div>
+
+    <div class="project-card">
+      <img src="Student management system.png.jpg" alt="Student Management System" />
+      <h3>Student Management System</h3>
+      <p>
+        A software application that helps academic institutions manage student
+        records. It allows administrators to store, update, and retrieve student
+        information easily and efficiently.<br />
+        <strong>Built with:</strong> Java (OOP)
+      </p>
+      <a href="https://github.com/umumegfira485-cloud/Student-Management-System-" target="-blank" class="btn"> See Code</a>
+    </div>
+
+    <div class="project-card">
+      <img src="Voting System.png.jpg" alt="Voting System" />
+      <h3>Voting System</h3>
+      <p>
+        Provides a secure and efficient way for users to cast and count votes
+        electronically and view results quickly and accurately.<br />
+        <strong>Built with:</strong> C++ and Basic DSA
+      </p>
+      <a
+       href="https://github.com/umumegfira485-cloud/Voting-system" target="-blank" class="btn"> See Code</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="contact-wrapper">
+
+      <div class="contact-form">
+        <h3>Send Me a Message</h3>
+        <form>
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit">Share Your Comment</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h3>Contact Me</h3>
+        <p><i class="fa-solid fa-phone"></i> +251 905 171 301</p>
+        <p><i class="fa-solid fa-envelope"></i> umumegfira485@gmail.com</p>
+        <p>
+          <i class="fa-brands fa-whatsapp"></i>
+          <a href="https://wa.me/251905171301" target="_blank">Chat On WhatsApp</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Rahma's Portfolio. All rights reserved.</p>
+  <div class="social-links">
+    <a href="https://t.me/umumegfira" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+    <a href="https://github.com/umumegfira485-cloud" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://instagram.com/umegfira" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
